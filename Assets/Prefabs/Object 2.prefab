@@ -95,5 +95,9 @@ PrefabInstance:
       propertyPath: GridSize.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6704318468743165320, guid: 2c0ab9ea791d4ae44b05e7c4587f32d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c0ab9ea791d4ae44b05e7c4587f32d5, type: 3}

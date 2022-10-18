@@ -2,12 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Orientation
-{
-    Horizontal,
-    Vertical
-}
-
 public class DrawableObject : MonoBehaviour
 {
     [SerializeField] private BaseSurfaceGrid defaultSurface;
@@ -17,6 +11,7 @@ public class DrawableObject : MonoBehaviour
     public Transform Model;
     public Collider Collider;
     public Collider Surface;
+    public Transform OppositeCorner;
 
     public BaseSurfaceGrid LastCorrectSurface;
 

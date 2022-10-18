@@ -12,6 +12,8 @@ public class BaseSurfaceGrid : MonoBehaviour
 {
     public Axis PreferedAxis;
     public DrawableObject ParentDrawabaleObject;
+    public Vector3 TargetObjectsRotation;
+    public bool HelpPlacingObjects = true;
 
     public Vector3Int GridSize;
 
